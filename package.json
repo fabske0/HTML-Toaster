@@ -1,0 +1,25 @@
+{
+  "name": "toaster",
+  "version": "1.0.0",
+  "description": "A small module to create HTML toasters",
+  "homepage": "https://github.com/fabske0/HTML-Toaster#readme",
+  "bugs": {
+    "url": "https://github.com/fabske0/HTML-Toaster/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabske0/HTML-Toaster"
+  },
+  "license": "ISC",
+  "author": "fabske0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "typescript": "^5.8.3"
+  }
+}
