@@ -1,4 +1,4 @@
-# Toaster
+# HTML Toaster
 
 A small, customizable module to create HTML toast notifications for your web projects.
 
