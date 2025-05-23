@@ -22,7 +22,7 @@ Or include the files manually in your project.
 ### Import and Use in JavaScript/TypeScript
 
 ```js
-import toaster from "toaster";
+import toaster from "html-toaster";
 
 toaster.add({
   message: "Hello, world!",
