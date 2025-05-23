@@ -18,9 +18,9 @@ export interface ToastContent {
 export interface ToastOptions {
     duration?: number;
     type?: "info" | "success" | "warning" | "error";
-    position?: "top-left" | "top-right" | "bottom-left" | "bottom-right";
+    position?: position;
     progressBar?: boolean;
-    priority?: "high" | "medium" | "low";
+    priority?: Priority;
 }
 
 export interface Toast {
@@ -30,3 +30,6 @@ export interface Toast {
         priority: 0 | 1 | 2;
     };
 }
+
+export type Priority = "high" | "medium" | "low";
+export type position = "top-left" | "top-right" | "bottom-left" | "bottom-right";
