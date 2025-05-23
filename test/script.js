@@ -45,17 +45,3 @@ getDOM('high-priority-toast').addEventListener('click', () => {
         priority: 'high',
     })
 })
-
-getDOM('immediate-toast').addEventListener('click', () => {
-    toaster.add({
-        message: 'Immediate toast',
-        image: {
-            src: 'https://picsum.photos/200/150?random=1',
-            alt: 'Random image',
-            width: 50,
-            height: 50,
-        }
-    }, { 
-        priority: 'immediate',
-    })
-})
