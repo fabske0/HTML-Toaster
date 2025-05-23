@@ -12,7 +12,7 @@ A small, customizable module to create HTML toast notifications for your web pro
 ## Installation
 
 ```bash
-npm install toaster
+npm install html-toaster
 ```
 
 Or include the files manually in your project.
