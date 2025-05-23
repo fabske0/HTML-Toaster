@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Toaster Test</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background: #333;
+                color: #fff;
+                padding: 1rem 2rem;
+                text-align: center;
+            }
+            main {
+                max-width: 800px;
+                margin: 2rem auto;
+                background: #fff;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            footer {
+                text-align: center;
+                color: #888;
+                padding: 1rem;
+                margin-top: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Toaster Test Page</h1>
+        </header>
+        <main>
+            <h2>Welcome!</h2>
+            <p>
+                This is a simple boilerplate HTML page for testing the Toaster
+                library.
+            </p>
+            <p>Feel free to add your own content and scripts below.</p>
+            <button id="low-priority-toast">Low Priority Toast</button>
+            <button id="medium-priority-toast">Medium Priority Toast</button>
+            <button id="high-priority-toast">High Priority Toast</button>
+            <button id="immediate-toast">Immediate Toast</button>
+            <section>
+                <h3>Sample Content</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque euismod, nisi eu consectetur consectetur, nisl
+                    nisi consectetur nisi, eu consectetur nisl nisi euismod
+                    nisi.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti. Mauris euismod, nisi eu
+                    consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Morbi non urna vitae elit cursus dictum. Proin nec eros nec
+                    urna dictum cursus. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Pellentesque euismod, nisi
+                    eu consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+            </section>
+            <section>
+                <h3>Gallery</h3>
+                <div
+                    style="
+                        display: flex;
+                        gap: 1rem;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    "
+                >
+                    <img
+                        src="https://picsum.photos/200/150?random=1"
+                        alt="Random 1"
+                        style="
+                            border-radius: 8px;
+                            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                        "
+                    />
+                    <img
+                        src="https://picsum.photos/200/150?random=2"
+                        alt="Random 2"
+                        style="
+                            border-radius: 8px;
+                            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                        "
+                    />
+                    <img
+                        src="https://picsum.photos/200/150?random=3"
+                        alt="Random 3"
+                        style="
+                            border-radius: 8px;
+                            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                        "
+                    />
+                </div>
+                <p style="margin-top: 1rem">
+                    A simple image gallery using placeholder images.
+                </p>
+            </section>
+            <section>
+                <h3>Features</h3>
+                <ul>
+                    <li>Easy integration with your project</li>
+                    <li>Customizable styles and options</li>
+                    <li>Lightweight and fast</li>
+                    <li>Responsive design</li>
+                </ul>
+            </section>
+            <section>
+                <h3>More Content</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque euismod, nisi eu consectetur consectetur, nisl
+                    nisi consectetur nisi, eu consectetur nisl nisi euismod
+                    nisi.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti. Mauris euismod, nisi eu
+                    consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Morbi non urna vitae elit cursus dictum. Proin nec eros nec
+                    urna dictum cursus. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Pellentesque euismod, nisi
+                    eu consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti. Mauris euismod, nisi eu
+                    consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Morbi non urna vitae elit cursus dictum. Proin nec eros nec
+                    urna dictum cursus. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Pellentesque euismod, nisi
+                    eu consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti. Mauris euismod, nisi eu
+                    consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+                <p>
+                    Morbi non urna vitae elit cursus dictum. Proin nec eros nec
+                    urna dictum cursus. Etiam ac erat sit amet erat facilisis
+                    dictum. Suspendisse potenti.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; Pellentesque euismod, nisi
+                    eu consectetur consectetur, nisl nisi consectetur nisi, eu
+                    consectetur nisl nisi euismod nisi.
+                </p>
+            </section>
+        </main>
+        <footer>&copy; 2025 Toaster Demo</footer>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
