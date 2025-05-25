@@ -33,6 +33,7 @@ class Toaster {
             options: {
                 ...options,
                 priority: Priority[options?.priority ?? "low"],
+                position: options?.position ?? "top-right",
             },
             id: this.#idCounter++,
         };
@@ -60,7 +61,7 @@ class Toaster {
             return;
         this.#active = true;
         const toast = document.createElement("div");
-        toast.className = `toast toast-${item.options.type ?? "info"}`;
+        toast.className = `toast toast-${item.options.type ?? "info"} toast-${item.options.position}`;
         item.content.message = this.#formatMessage(item.content.message);
         toast.innerHTML = `
         <div class="toast-content">
